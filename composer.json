@@ -1,0 +1,46 @@
+{
+    "name": "huangdijia/laminas-mime-double",
+    "description": "The double of laminas-mime.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laminas",
+        "mime",
+        "email"
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "require-dev": {
+        "huangdijia/php-coding-standard": "~2.3.0",
+        "phpunit/phpunit": "^9.5 || ^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laminas\\Mime\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaminasTest\\Mime\\": "test/"
+        }
+    },
+    "replace": {
+        "laminas/laminas-mime": "*"
+    },
+    "scripts": {
+        "check": [
+            "@cs-check",
+            "@test"
+        ],
+        "cs-fix": "php-cs-fixer fix $1",
+        "test": "phpunit --colors=always"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "ergebnis/composer-normalize": true
+        }
+    }
+}
