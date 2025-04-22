@@ -1,6 +1,6 @@
 {
-    "name": "huangdijia/laminas-mime-double",
-    "description": "The double of laminas-mime.",
+    "name": "hypervel/laminas-mime",
+    "description": "A temporary alternative for abandoned laminas-mime package.",
     "type": "library",
     "license": "MIT",
     "keywords": [
