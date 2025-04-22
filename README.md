@@ -1,7 +1,7 @@
-# The double of laminas-mime for Hyperf
+# A Temporary Alternative for Abandoned `laminas-mime` Package.
 
 ## Installation
 
 ```bash
-composer require huangdijia/laminas-mime-double
+composer require hypervel/laminas-mime
 ```
